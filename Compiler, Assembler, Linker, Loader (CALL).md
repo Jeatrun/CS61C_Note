@@ -59,3 +59,44 @@
 
 
 ## 4.Linker
+- I/O
+	- Input: Object Code files,information tables (e.g. foo.o,lib.o)
+	- Output: Executable code (e.g. a.out)
+		- Combines several .o files into **signle** .out
+		- Take every ``.text`` and ``.data`` segment of each .o files
+				then concatenate them into a single .out file  
+		- Resolve References
+- Three Types of Addresses
+	- PC relative(beq,bne) 
+		- never relocate
+	- External Function Reference (jal)
+		- always relocate
+	- Static Data Reference (auipc,addi)
+		- always relocate
+## 5.Loader
+- I/O
+	- Input: Executable Code (e.g. a.out)
+	- Output: <program is run>
+- Usually, the loader is the OS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
