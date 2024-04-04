@@ -76,9 +76,8 @@
 ## 5.Loader
 - I/O
 	- Input: Executable Code (e.g. a.out)
-	- Output: <program is run>
+	- Output: program is run
 - Usually, the loader is the OS 
-
 
 
 
